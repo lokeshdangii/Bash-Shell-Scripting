@@ -3,6 +3,7 @@
 age=25
 
 # if [ "$age" -gt 18 ] && [ "$age" -lt 30 ]
+# if [[ "$age" -gt 18 && "$age" -lt 30 ]]
 
 if [ "$age" -gt 18 -a "$age" -lt 30 ]
 then
@@ -13,5 +14,5 @@ fi
 
 # AND Operator --> && or -a
 
-#  && --> use two Sq. Brackets [] && []
+#  && --> use two Sq. Brackets [] && []  or [[ Cond1 && Cond2 ]]
 #  -a --> use one Sq. Bracket [ cond1 -a cond2 ]
