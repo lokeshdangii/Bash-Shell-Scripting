@@ -25,14 +25,21 @@ then
 
     for (( i=1; i<=$number; i++ )) 
     do  
-        mkdir $location/$today
-        # echo "Folder number $i created.."
-        today=$(date -d "$today + 1 day" +%Y-%m-%d)
+        if [ -d $location/$today ]  
+        then
+            echo "$today already exist"
+            exit 
+        else
+            mkdir $location/$today
+            # echo "Folder number $i created.."
+            today=$(date -d "$today + 1 day" +%Y-%m-%d)
+        fi
+        
     done 
 
 else
-    echo "The specified location does not exist."
-    exit 1
+    echo "The specified location does not exist....!!"
+    # exit 1
 fi
 
 
