@@ -23,3 +23,11 @@ str="itisastring"
 echo ${str[0]}
 echo ${str[1]}
 echo ${#str[@]}
+
+
+# iterating in array
+
+for element in "${os[@]}"
+do
+   echo "${os}"
+done
