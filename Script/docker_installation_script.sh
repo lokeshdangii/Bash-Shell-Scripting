@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #  Script for the installation of docker on Ubuntu
 
 # Step 1 — Installing Docker
@@ -35,6 +37,10 @@ sudo apt install docker-ce
 
 sudo systemctl status docker
 
+
+echo "Docker has been installed Successfully.....!"
+output="$(docker --version)"
+echo "the docker version is : $output"
 
 
 # Step 2 — Executing the Docker Command Without Sudo (Optional)
