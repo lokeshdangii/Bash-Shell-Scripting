@@ -17,7 +17,6 @@ Throughout this learning journey, I've covered a variety of Bash scripting topic
 - Working with Arrays
 - Functions and Scope (Local & Global Variables)
 - Script Input and Output
-- Error Handling
 - and more...
 
 ## Programs Included
