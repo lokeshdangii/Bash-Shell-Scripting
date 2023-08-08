@@ -1,11 +1,11 @@
 #!/bin/bash
 
-#  Script for the installation of docker on Ubuntu
+#  ------- Script for the installation of docker on Ubuntu ----
+
 
 # Step 1 — Installing Docker
 
 # First, update your existing list of packages:
-
 sudo apt update
 
 # Next, install a few prerequisite packages which let apt use packages over HTTPS:
