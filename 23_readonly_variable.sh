@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# readonly command in bash
+
 var=21
 
 readonly var
