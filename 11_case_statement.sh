@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# case statement in Bash --> Similar to switch case in C programming
+
 vehicle=$1
 
 case $vehicle in
