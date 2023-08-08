@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# case staement example
+
 echo -e "Enter the character : \c"
 read value
 
