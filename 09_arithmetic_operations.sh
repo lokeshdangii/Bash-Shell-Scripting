@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# arithmetic operations 
+
 # echo command takes anything which written ater it as string
 echo 1+1  
 
