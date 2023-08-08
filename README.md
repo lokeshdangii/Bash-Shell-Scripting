@@ -52,6 +52,7 @@ Below is the list of Bash Programs included in this repository:
 
 
 ## Scripts Included
+Below is the list of scripts I have made during my Learning Journey:
 
 1. **[Create a folder:](https://github.com/lokeshdangii/Bash-Shell-Scripting/blob/main/My_Scripts/01_folder_creation.sh)** A Script to create the required number of directories/folders having the date as the folder name.
 2. **[Find File in System:](https://github.com/lokeshdangii/Bash-Shell-Scripting/blob/main/My_Scripts/02_find_file.sh)** A script to search for a file within the Linux/Ubuntu-based system's directory structure.
@@ -68,10 +69,15 @@ To explore the scripts in this repository:
 3. Make the script executable using `chmod +x script-name.sh`.
 4. Run the script with `./script-name.sh`.
 
-Feel free to examine the scripts, modify them, and experiment with your variations. Don't hesitate to reach out if you have questions about specific scripts or concepts!
+Feel free to examine the scripts, modify them, and experiment with your variations. 
 
 ## Contributions
 
 While this repository primarily documents my learning journey, I welcome constructive feedback and suggestions. If you notice any improvements that can be made to the scripts or have insights to share, please feel free to open an issue or submit a pull request.
 
+## Contact
+
+You can reach me via email at [lokeshdangi1045@gmail.com](mailto:lokeshdangi1045@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/lokeshdangi/). 
+
+Thank you for visiting my repository!
 
