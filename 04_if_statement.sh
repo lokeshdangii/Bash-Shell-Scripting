@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# if statement in Bash Scripting
+
 count=10
 
 if [ $count -gt 20 ]
