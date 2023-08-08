@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# ------- Signal & Trap -----------------
+
 # trap "echo Exit command is detected" 0
 
 # echo "Hello World"
