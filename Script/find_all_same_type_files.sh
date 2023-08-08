@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Script to find the file of same type like (.py, .txt, .json etc) at a provided path
+
 read -p "Enter the extension of type of file want to find : " filename
 read -p "Enter the path where you want to find : " path
 
