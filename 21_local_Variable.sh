@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# local variables in Bash
+
 function printName(){
     local name=$1   
     # name variable is local to function only
