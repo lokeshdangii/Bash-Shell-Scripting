@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# function example
+
 usage(){
     echo "You need to provide an argument : "
     echo "usage : $0 file_name"
