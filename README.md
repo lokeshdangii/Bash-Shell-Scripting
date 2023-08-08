@@ -64,10 +64,26 @@ Below is the list of scripts I have made during my Learning Journey:
 
 To explore the scripts in this repository:
 
-1. Clone the repository to your local machine using `git clone https://github.com/lokeshdangii/Bash-Shell-Scripting.git`.
-2. Navigate to the specific script directory using `cd Bash-Shell-Scripting`.
-3. Make the script executable using `chmod +x script-name.sh`.
-4. Run the script with `./script-name.sh`.
+1. Clone the repository to your local machine using
+
+     ```
+   git clone https://github.com/lokeshdangii/Bash-Shell-Scripting.git
+     ```
+3. Navigate to the specific script directory using
+
+     ```
+   cd Bash-Shell-Scripting
+     ```
+5. Make the script executable using
+
+     ```
+   chmod +x script-name.sh
+     ```
+7. Run the script with
+
+   ```
+   ./script-name.sh
+   ```
 
 Feel free to examine the scripts, modify them, and experiment with your variations. 
 
