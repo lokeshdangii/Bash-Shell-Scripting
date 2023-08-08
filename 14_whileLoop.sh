@@ -1,4 +1,7 @@
 #!/bin/bash
+
+# ------------- while loop in Bash -------------------------
+ 
 n=1
 
 # while [ $n -le 10 ]
