@@ -4,7 +4,7 @@
 
 # for i in 1 2 3 4 5 6
 
-# for i in {1..10..2} # start end stepper
+# for i in {1..10..2} # start end steper
 # do 
 #     echo $i
 # done 
