@@ -7,12 +7,12 @@
 
 # to read input on the same line
 
-# read -p 'username : ' user_var
-# read -sp 'password : ' pass_var  # hide the input we provide on terminal
-# echo "username : $user_var"      # take one input only
-# echo "password : $pass_var"
+read -p 'username : ' user_var
+read -sp 'password : ' pass_var  #-s hide the input we provide on terminal
+echo "username : $user_var"      # take one input only
+echo "password : $pass_var"
 
 
-echo "Enter names :"
-read -a names     # -a flag takes input as array
-echo ${names[0]} ${names[1]} ${names[2]} 
+# echo "Enter names :"
+# read -a names     # -a flag takes input as array
+# echo ${names[0]} ${names[1]} ${names[2]} 
