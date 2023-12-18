@@ -4,9 +4,10 @@
 
 num=1
 
-# until [ $num -ge 10 ]   
-until (( $num >= 10 ))
+until [ $num -ge 10 ]   
+# until (( $num >= 10 ))
 do
     echo $num
-    num=$(( n+1 ))
+    # (( num++ ))
+    num=$(( num+1 ))
 done
