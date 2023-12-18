@@ -15,5 +15,5 @@ echo ${args[0]} ${args[1]} ${args[2]}
 #  to print all the arguments in one go
 echo $@
 
-# to print the number of arguments passed in the Script
+# to print the number(count) of arguments passed in the Script
 echo $#
