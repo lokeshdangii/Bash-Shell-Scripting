@@ -29,5 +29,5 @@ echo ${#str[@]}
 
 for element in "${os[@]}"
 do
-   echo "${os}"
+   echo "${element}"
 done
