@@ -18,7 +18,7 @@ echo ${#os[@]} # print length of array
 
 # variables behave as array
 
-str="itisastring"
+str="itisastring of characters"
 # echo ${str[@]}
 echo ${str[0]}
 echo ${str[1]}
