@@ -3,7 +3,7 @@
 echo "Step 1: Installation"
 sudo apt update -y > /dev/null
 sudo apt-get install python3-venv -y > /dev/null
-sudo apt install mysql-server -y > /dev/null
+sudo apt install mysql-server -y
 echo "Installation completed successfully."
 
 echo "Step 2: Setting Up Application"
@@ -17,7 +17,7 @@ echo "Application setup completed successfully."
 echo "Step 3: Setting up database"
 sudo mysql -e "CREATE DATABASE cardb;"
 sudo mysql cardb < cardb.sql
-sudo mysql -u root -p -e "ALTER USER 'root'@'localhost' IDENTIFIED with mysql_native_password By 'root';" 
+sudo mysql -e "ALTER USER 'root'@'localhost' IDENTIFIED with mysql_native_password By 'root';" 
 echo "Database setup completed successfully."
 
 echo "Running the CMS application"
@@ -25,7 +25,7 @@ python3 app.py
 
 
 
-# -----------------------------------------------------------------------------------------------------------------
+# ----------------------------------------------- Checking Database Existence  --------------------------------------------
 
 # #!/bin/bash
 
@@ -65,7 +65,6 @@ python3 app.py
 # python3 app.py
 
 # -----------------------------------------------------------------------------------------------------------
-
 
 # #!/bin/bash
 
