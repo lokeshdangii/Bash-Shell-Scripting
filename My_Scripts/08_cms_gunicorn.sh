@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
-
 # Script to deploy and Serve CMS Application with Gunicorn and Nginx on Ubuntu
 
 echo "Step 1: Installation"
@@ -13,12 +11,19 @@ sudo apt install mysql-server -y
 echo "Installation completed successfully."
 
 
-echo "Step 2: Setting Up Application"
+echo "Step 2: Setting up database"
+sudo mysql -e "CREATE DATABASE cardb;"
+sudo mysql cardb < cardb.sql
+sudo mysql -e "ALTER USER 'root'@'localhost' IDENTIFIED with mysql_native_password By 'root';"
+echo "Database setup completed successfully."
+
+
+echo "Step 3: Setting Up Application"
 cd /home/ubuntu
 git clone https://github.com/lokeshdangii/CMS
 cd CMS/
 
-
+# creating virtual environment
 python3 -m venv env
 source env/bin/activate
 pip install -r requirements.txt
@@ -26,11 +31,7 @@ pip install wheel
 pip install gunicorn flask
 echo "Application setup completed successfully."
 
-echo "Step 3: Setting up database"
-sudo mysql -e "CREATE DATABASE cardb;"
-sudo mysql cardb < cardb.sql
-sudo mysql -e "ALTER USER 'root'@'localhost' IDENTIFIED with mysql_native_password By 'root';"
-echo "Database setup completed successfully."
+
 
 # Creating the WSGI Entry Point
 sudo cp /home/ubuntu/AWS_Script/Gunicorn/wsgi.py /home/ubuntu/CMS
