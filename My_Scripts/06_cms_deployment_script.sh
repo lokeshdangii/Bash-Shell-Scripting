@@ -2,6 +2,7 @@
 
 echo "Step 1: Installation"
 sudo apt update -y > /dev/null
+sudo apt-get remove needrestart -y
 sudo apt-get install python3-venv -y > /dev/null
 sudo apt install mysql-server -y
 echo "Installation completed successfully."
